@@ -23,23 +23,23 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.exam.Load" >
+        <activity android:name="com.example.exam.main.Load" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.exam.Menu"></activity>
-        <activity android:name="com.example.exam.Mid_exam"></activity>
-        <activity android:name=".HistoryView"/>
-        <activity android:name=".WrongView"/>
-        <activity android:name=".Register"/>
-        <activity android:name=".ReDate"/>
-        <activity android:name=".RePassword"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".Usl_exam"/>
-        <activity android:name=".Rank"/>
+        <activity android:name="com.example.exam.main.Menu"></activity>
+        <activity android:name="com.example.exam.midExam.Mid_exam"></activity>
+        <activity android:name=".main.HistoryView"/>
+        <activity android:name=".main.WrongView"/>
+        <activity android:name=".main.Register"/>
+        <activity android:name=".main.ReDate"/>
+        <activity android:name=".main.RePassword"/>
+        <activity android:name=".game.MainActivity"/>
+        <activity android:name=".uslExam.Usl_exam"/>
+        <activity android:name=".main.Rank"/>
     </application>
 
 </manifest>
