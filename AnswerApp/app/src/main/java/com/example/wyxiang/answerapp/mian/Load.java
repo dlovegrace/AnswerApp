@@ -91,6 +91,9 @@ public class Load extends AppCompatActivity {
                         public void done(Users users, BmobException e) {
                             if (e==null){
                                 //验证成功,登录
+                                Intent intent = new Intent(com.example.wyxiang.answerapp.mian.Load.this,Menu.class);
+                                intent.putExtra("id",id);
+                                startActivity(intent);
                             }else {
 
                                 dialog.withTitle("提示")
