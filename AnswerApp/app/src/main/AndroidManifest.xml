@@ -31,7 +31,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".mian.Register"/>
-        <activity android:name=".mian.Menu"/>
     </application>
 
 </manifest>

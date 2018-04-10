@@ -7,7 +7,7 @@
     android:background="@drawable/timg">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/reg_toolbar"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#000000"
@@ -23,7 +23,7 @@
         >
         <TextView
             android:layout_marginLeft="10dp"
-            android:id="@+id/reg_tv_name"
+            android:id="@+id/tv_name"
             android:layout_width="90dp"
             android:gravity="center"
             android:layout_height="match_parent"
@@ -31,7 +31,7 @@
             android:textColor="#191919"/>
         <EditText
             android:gravity="left|center"
-            android:id="@+id/reg_et_name"
+            android:id="@+id/et_name"
             android:singleLine="true"
             android:layout_width="200dp"
             android:hint="请输入用户名"
@@ -49,7 +49,7 @@
         android:weightSum="1">
         <TextView
             android:layout_marginLeft="10dp"
-            android:id="@+id/reg_tv_id"
+            android:id="@+id/tv_id"
             android:layout_width="90dp"
             android:gravity="center"
             android:layout_height="match_parent"
@@ -57,7 +57,7 @@
             android:textColor="#191919"/>
         <EditText
             android:gravity="left|center"
-            android:id="@+id/reg_et_id"
+            android:id="@+id/et_id"
             android:singleLine="true"
             android:layout_width="200dp"
             android:hint="请使用学号注册"
@@ -73,7 +73,7 @@
         android:weightSum="1">
         <TextView
             android:layout_marginLeft="10dp"
-            android:id="@+id/reg_tv_password"
+            android:id="@+id/tv_password"
             android:layout_width="90dp"
             android:gravity="center"
             android:layout_height="match_parent"
@@ -82,7 +82,7 @@
         <EditText
             android:gravity="left|center"
             android:inputType="textPassword"
-            android:id="@+id/reg_et_password"
+            android:id="@+id/et_password"
             android:singleLine="true"
             android:layout_width="200dp"
             android:hint="请输入密码"
@@ -100,7 +100,7 @@
 
         <TextView
             android:layout_marginLeft="10dp"
-            android:id="@+id/reg_tv_password_1"
+            android:id="@+id/tv_password1"
             android:layout_width="90dp"
             android:gravity="center"
             android:layout_height="match_parent"
@@ -110,7 +110,7 @@
         <EditText
             android:gravity="left|center"
             android:inputType="textPassword"
-            android:id="@+id/reg_et_password1"
+            android:id="@+id/et_password1"
             android:singleLine="true"
             android:layout_width="200dp"
             android:hint="请再次确认密码"
@@ -127,7 +127,7 @@
         android:weightSum="1">
         <TextView
             android:layout_marginLeft="10dp"
-            android:id="@+id/reg_tv_email"
+            android:id="@+id/tv_email"
             android:layout_width="90dp"
             android:gravity="center"
             android:layout_height="match_parent"
@@ -137,7 +137,7 @@
         <EditText
             android:inputType="textEmailAddress"
             android:gravity="left|center"
-            android:id="@+id/reg_et_email"
+            android:id="@+id/et_email"
             android:singleLine="true"
             android:layout_width="200dp"
             android:hint="请输入邮箱"
@@ -149,7 +149,7 @@
     <Button
         android:layout_marginTop="35dp"
         android:layout_gravity="center"
-        android:id="@+id/reg_register"
+        android:id="@+id/register"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="注        册"
